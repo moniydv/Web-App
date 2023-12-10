@@ -1,6 +1,8 @@
-# Web-App
+# Web-Appointments
 web application - handles appointments
-REQUIRED TECHNOLOGIES : 
+
+
+TECHNOLOGIES USED: 
 
 PERL
 JSON
@@ -12,7 +14,7 @@ HTML
 PROJECT REQUIREMENTS : 
 
 
-This will be a very simple web application which handles appointments.
+This web application handles appointments.
 The appointments will be stored in a SQL database with at least 1 table. 
 We recommend that one of the tables contains 2 columns: 
 (1) a datetime column which records the appointment's time and (2) a description column.
@@ -146,10 +148,5 @@ pressed, the form is hidden and the "ADD" button becomes "NEW" again.
 When data is entered into the form and the "ADD" button is pressed, the
 form should be submitted to the back-end.  Submitting the form also
 reloads the entire web page.  (In other words, the form should be
-submitted using normal HTML form semantics.  You don't need to submit the
+submitted using normal HTML form semantics.  Don't need to submit the
 form as an AJAX call.)
-
-
-EXPECTATIONS : 
-
-Put in a good effort to complete the requirements above.  Even if you do not finish the full project, please turn in everything you have, and all files so we can look over all of the files.
