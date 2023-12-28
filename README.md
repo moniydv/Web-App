@@ -150,3 +150,11 @@ form should be submitted to the back-end.  Submitting the form also
 reloads the entire web page.  (In other words, the form should be
 submitted using normal HTML form semantics.  Don't need to submit the
 form as an AJAX call.)
+
+BEFORE RUNNING THE SOLUTION, READ BELOW INSTRUCTIONS:
+
+- The hash bang line in file : index.cgi should be changed to #!/usr/bin/perl OR #!perl/bin/perl based on the location of perl. For Window OS #!C:/perl64/bin/perl has been used in index.cgi
+- The date format acceptable on appointment is MM/DD/YYYY. Though regex has been added for MM/DD/YYYY, MM-DD-YYYY, MM.DD.YYYY , but datepicker supports only MM/DD/YYYY format.
+- The time format acceptable on appointment is HH::MM (24-hour format) or hh::mm am/pm (12-hour format).
+- Search is applicable on Description column of the table (as shown in example of Coding Excercise) only. The search can be enhanced to date and time, by changing date and time format shown in table to DB date-time format.
+- When there are no matches for search instead of not showing any result, All appointments are shown to user and a message string displays "No match(es) found".
